@@ -38,10 +38,6 @@ exports.getTour = (req, res) => {
 };
 
 exports.postTour = (req, res) => {
-  // adding middleware to view POST request
-  // MIDDLEWARE: function that gets the req and res from a post http method
-  // console.log(req.body);
-
   const newId = tours[tours.length - 1].id + 1;
   const newTour = Object.assign({ id: newId }, req.body);
   tours.push(newTour);

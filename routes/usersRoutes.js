@@ -5,6 +5,7 @@ const usersController = require('./../controllers/usersController');
 
 // ================================================ routes
 
+// route middleware
 const router = express.Router();
 
 router

@@ -5,6 +5,7 @@ const toursController = require('./../controllers/toursController');
 
 // ================================================ routes
 
+// route middleware
 const router = express.Router();
 
 router
